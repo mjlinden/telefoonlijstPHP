@@ -1,0 +1,98 @@
+/* 
+    Document   : telefoonlijst
+    Created on : 22-apr-2013, 14:16:54
+    Author     : linden
+    Description:
+        Purpose of the stylesheet follows.
+*/
+body {
+    background-color: grey;
+}
+#contacten > a
+{
+    display:block;
+    float:left;
+    margin-left:10px;
+}
+#contacten > a >img
+{
+    width:15px;
+    height:15px;
+}
+a {
+    display:block;
+    float:right;
+}
+#content {
+    margin-left:auto;
+    margin-right:auto;
+    background-color: white;
+    padding:20px;
+    width:820px;
+}
+
+h1 { 
+    border-bottom:0.1em solid red; 
+    margin-bottom: 0;
+    
+}
+input + form 
+{
+    display:inline;
+}
+
+#invoer td + td {
+    text-align:left;
+}
+table {
+   
+    width:820px;
+}
+input:focus {
+    background: yellow;
+}
+
+#invoer tr td.lbl {
+    background: #FCC;
+    border-left:0.5em solid red;
+}
+
+
+#invoer td{
+    text-align: right;
+    padding: 4px 5px 4px 5px;
+    vertical-align: middle;
+}
+
+#invoer table {
+    border-spacing:0px;
+}
+
+
+ td,th, caption{
+    font-family: Verdana, sans-serif;
+ }
+
+#contacten caption{
+    margin-top:20px;
+    text-align: left;
+    font-weight: bold;
+    padding: 3px 0 4px 5px;
+    background-color: #FCC;
+    border-left: 3px solid white;
+    border-right:2px solid white;
+ }
+
+ #contacten td, th{
+     
+    text-align: left;
+    padding: 4px 5px 4px 5px;
+    vertical-align: middle;
+    background-color: #FCC;
+    
+ }
+
+ #contacten thead th{
+   background-color: red;
+   font-size: 13px;
+ }
